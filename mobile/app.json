@@ -10,16 +10,6 @@
     "slug": "mobile",
     "plugins": [
       [
-        "expo-font",
-        {
-          "fonts": [
-            "./assets/fonts/LibreCaslonText-Bold.ttf",
-            "./assets/fonts/LibreCaslonText-Italic.ttf",
-            "./assets/fonts/LibreCaslonText-Regular.ttf"
-          ]
-        }
-      ],
-      [
         "@sentry/react-native/expo",
         {
           "url": "https://sentry.io/",
@@ -27,6 +17,14 @@
           "organization": "bitshiftz"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3b7520c7-40d8-49d0-a945-4a6a141099db"
+      }
+    },
+    "android": {
+      "package": "com.devolos.mobile"
+    }
   }
 }

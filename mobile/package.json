@@ -11,6 +11,7 @@
     "axios": "^1.13.2",
     "date-fns": "^4.1.0",
     "expo": "~54.0.22",
+    "expo-dev-client": "~6.0.20",
     "expo-font": "^14.0.10",
     "expo-image": "^3.0.11",
     "expo-router": "~6.0.14",
@@ -27,6 +28,7 @@
     "zustand": "^5.0.10"
   },
   "devDependencies": {
+    "@sentry/cli": "^3.1.0",
     "@types/react": "~19.1.0",
     "typescript": "~5.9.2"
   },
